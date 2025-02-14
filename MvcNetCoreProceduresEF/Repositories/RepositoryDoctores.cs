@@ -8,8 +8,8 @@ namespace MvcNetCoreProceduresEF.Repositories
 {
     public class RepositoryDoctores
     {
-        private EnfermoContext context;
-        public RepositoryDoctores(EnfermoContext context)
+        private HospitalContext context;
+        public RepositoryDoctores(HospitalContext context)
         {
             this.context = context;
         }
